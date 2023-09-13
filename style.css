@@ -33,6 +33,10 @@ body {
     gap: 15px;
 }
 
+#header li {
+    flex: 1;
+}
+
 #header a {
     text-decoration: none;
     color: #eaf1f9;
@@ -56,13 +60,60 @@ body {
     gap: 50px;
 }
 
-.container .greeting {
+#introduction .greeting {
     max-width: 500px;
+    flex: auto;
 }
 
-#introduction img {
+#introduction .logo {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#introduction .pfp{
+    flex: auto;
+}
+
+#introduction .user {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 5px solid #85bd76;
+}
+
+/* style for about me */
+#about-me {
+    background-color: #c0c0ca;
+    text-align: center;
+    padding: 20px;
+}
+
+#about-me ul {
+    list-style: none;
+    padding: 20px;
+}
+
+#about-me li {
+    margin-top: 20px;
+}
+
+#about-me .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+#about-me .personal-info,
+.education {
+    border-radius: 18px;
+    background-color: #2f2d52;
+    padding: 20px;
+    flex: auto;
+    max-width: 300px;
+    height: 400px;
+    color: #eaf1f9;
+    box-shadow: 5px 5px 5px #747476;
 }
