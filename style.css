@@ -19,6 +19,8 @@ body {
 #header {
     background-color: #2f2d52;
     padding: 5px 0;
+    position: sticky;
+    top: 0px;
 }
 
 #header .container {
@@ -46,7 +48,7 @@ body {
     color: #c0c0ca;
 }
 
-/* style for introduction */
+/* style for introduction section */
 #introduction {
     background-color: #eaf1f9;
     height: 400px;
@@ -81,7 +83,7 @@ body {
     border: 5px solid #85bd76;
 }
 
-/* style for about me */
+/* style for about-me section */
 #about-me {
     background-color: #c0c0ca;
     text-align: center;
@@ -117,3 +119,88 @@ body {
     color: #eaf1f9;
     box-shadow: 5px 5px 5px #747476;
 }
+
+/* style for projects section */
+#projects {
+    background-color: #eaf1f9;
+    color: 2f2d52;
+    text-align: center;
+    padding: 20px;
+}
+
+#projects .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#projects img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#projects .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+    background-color: #c0c0ca;
+    padding: 20px;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #9d9ea0;
+    margin-top: 20px;
+    flex: auto;
+}
+
+#projects a{
+    text-decoration: none;
+    background-color: #2f2d52;
+    color: #eaf1f9;
+    padding: 4px 8px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #79797d;
+}
+
+#projects a:hover {
+    background-color: #141329;
+}
+
+/* style for skills section*/
+#skills {
+    background-color: #c0c0ca;
+    text-align: center;
+    padding: 20px;
+}
+
+#skills img {
+    width: 150px;
+    height: 100px;
+}
+
+#skills .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#skills .skill-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* style for footer section */
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
