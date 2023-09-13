@@ -1,1 +1,2 @@
 # my-portfolio
+This project will function as my portfolio, where I will gather my information and showcase my other projects. I plan to utilize HTML/CSS and JavaScript for the development of this project.
